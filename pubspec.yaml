@@ -1,0 +1,41 @@
+name: contador_de_moedas
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/app_icon.png
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/05centavos.png
+    - assets/images/10centavos.png
+    - assets/images/25centavos.png
+    - assets/images/50centavos.png
+    - assets/images/1real.png
+    - assets/images/2reais.png
+    - assets/images/5reais.png
+    - assets/images/10reais.png
+    - assets/images/20reais.png
+    - assets/images/50reais.png
+    - assets/images/100reais.png
+    - assets/images/200reais.png
